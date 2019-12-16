@@ -25,10 +25,11 @@ ui <- fluidPage(
                    label = "Select Time Period:", 
                    choices = seq(as.Date('1990-01-01'), by = 'year', length.out = 30)),
                  
-                 selectInput(
+                 sliderInput(
                    inputId = 'n_words',
-                   label = 'Select the Maximum Number of Keywords',
-                   choices = c(100, 250, 500))
+                   label = 'Select the Maximum Number of Keyword Pairs',
+                   min = 50,
+                   max = 750)
                  
                  
                  
