@@ -1,0 +1,12 @@
+name: keywords_shiny
+title: keywords_shiny
+username:
+account: petertolochko
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1603758
+bundleId: 2672176
+url: https://petertolochko.shinyapps.io/keywords_shiny/
+when: 1576513543.7119
+asMultiple: FALSE
+asStatic: FALSE
